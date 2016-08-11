@@ -1,0 +1,12 @@
+C:\Users\Mario\Documents\Visual Studio 2013\Projects\MastermindV2\MastermindV2\bin\Release\MastermindV2.exe
+C:\Users\Mario\Documents\Visual Studio 2013\Projects\MastermindV2\MastermindV2\bin\Release\MastermindV2.pdb
+C:\Users\Mario\Documents\Visual Studio 2013\Projects\MastermindV2\MastermindV2\obj\Release\MastermindV2.ColourControl.resources
+C:\Users\Mario\Documents\Visual Studio 2013\Projects\MastermindV2\MastermindV2\obj\Release\MastermindV2.Form1.resources
+C:\Users\Mario\Documents\Visual Studio 2013\Projects\MastermindV2\MastermindV2\obj\Release\MastermindV2.GuessControl.resources
+C:\Users\Mario\Documents\Visual Studio 2013\Projects\MastermindV2\MastermindV2\obj\Release\MastermindV2.Properties.Resources.resources
+C:\Users\Mario\Documents\Visual Studio 2013\Projects\MastermindV2\MastermindV2\obj\Release\MastermindV2.csproj.GenerateResource.Cache
+C:\Users\Mario\Documents\Visual Studio 2013\Projects\MastermindV2\MastermindV2\obj\Release\MastermindV2.exe
+C:\Users\Mario\Documents\Visual Studio 2013\Projects\MastermindV2\MastermindV2\obj\Release\MastermindV2.pdb
+C:\Users\Mario\Documents\Visual Studio 2013\Projects\MastermindV2\MastermindV2\obj\Release\MastermindV2.csprojResolveAssemblyReference.cache
+C:\Users\Mario\Documents\Visual Studio 2013\Projects\MastermindV2\MastermindV2\obj\Release\MastermindV2.frmAbout.resources
+C:\Users\Mario\Documents\Visual Studio 2013\Projects\MastermindV2\MastermindV2\obj\Release\MastermindV2.frmHowToPlay.resources

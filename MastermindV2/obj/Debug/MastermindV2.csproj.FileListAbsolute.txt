@@ -1,0 +1,10 @@
+c:\users\mario\documents\visual studio 2013\Projects\MastermindV2\MastermindV2\bin\Debug\MastermindV2.exe
+c:\users\mario\documents\visual studio 2013\Projects\MastermindV2\MastermindV2\bin\Debug\MastermindV2.pdb
+c:\users\mario\documents\visual studio 2013\Projects\MastermindV2\MastermindV2\obj\Debug\MastermindV2.csprojResolveAssemblyReference.cache
+c:\users\mario\documents\visual studio 2013\Projects\MastermindV2\MastermindV2\obj\Debug\MastermindV2.Form1.resources
+c:\users\mario\documents\visual studio 2013\Projects\MastermindV2\MastermindV2\obj\Debug\MastermindV2.GuessControl.resources
+c:\users\mario\documents\visual studio 2013\Projects\MastermindV2\MastermindV2\obj\Debug\MastermindV2.Properties.Resources.resources
+c:\users\mario\documents\visual studio 2013\Projects\MastermindV2\MastermindV2\obj\Debug\MastermindV2.csproj.GenerateResource.Cache
+c:\users\mario\documents\visual studio 2013\Projects\MastermindV2\MastermindV2\obj\Debug\MastermindV2.exe
+c:\users\mario\documents\visual studio 2013\Projects\MastermindV2\MastermindV2\obj\Debug\MastermindV2.pdb
+C:\Users\Mario\Documents\Visual Studio 2013\Projects\MastermindV2\MastermindV2\obj\Debug\MastermindV2.ColourControl.resources
