@@ -302,7 +302,7 @@ namespace MastermindV2
 
         }
 
-        //fill rw and rr boxes with info
+        //fill rw and rr boxes with info (rw:rightcolour right position|rw:rightcolour wrong position)
         private static void GetGuessInfo(GuessControl ctrl)
         {
             int rr = 0;
