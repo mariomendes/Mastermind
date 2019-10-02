@@ -163,6 +163,7 @@ namespace MastermindV2
                     EnableControl(playerColours);
 
                 }
+                ResetColourControlSetColour();
                 MessageBox.Show("Player2 set player1's colours.\nPlayer1 look away!", "Set Colours", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
@@ -180,9 +181,16 @@ namespace MastermindV2
                     playerColours.button1.Visible = false;
                     player2Colours.Visible = true;
                     EnableControl(guessList[count]);
+                    ResetColourControlSetColour();
                     colorSet = false;
                 }
             }
+        }
+
+        private void ResetColourControlSetColour()
+        {
+            Button b = new Button();
+            this.colourControl1.button9.BackColor = b.BackColor;
         }
 
         private bool ValidateControl(GuessControl ctrl)

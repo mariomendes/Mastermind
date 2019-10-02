@@ -169,6 +169,6 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button9;
+        public System.Windows.Forms.Button button9;
     }
 }
