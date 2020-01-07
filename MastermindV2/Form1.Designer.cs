@@ -56,7 +56,7 @@ namespace MastermindV2
             this.guessControl3 = new MastermindV2.GuessControl();
             this.guessControl2 = new MastermindV2.GuessControl();
             this.guessControl1 = new MastermindV2.GuessControl();
-            this.colourControl1 = new MastermindV2.ColourControl();
+            colourControl1 = new MastermindV2.ColourControl();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -279,11 +279,11 @@ namespace MastermindV2
             // 
             // colourControl1
             // 
-            this.colourControl1.BackColor = System.Drawing.Color.Transparent;
-            this.colourControl1.Location = new System.Drawing.Point(459, 27);
-            this.colourControl1.Name = "colourControl1";
-            this.colourControl1.Size = new System.Drawing.Size(82, 709);
-            this.colourControl1.TabIndex = 11;
+            colourControl1.BackColor = System.Drawing.Color.Transparent;
+            colourControl1.Location = new System.Drawing.Point(459, 27);
+            colourControl1.Name = "colourControl1";
+            colourControl1.Size = new System.Drawing.Size(82, 709);
+            colourControl1.TabIndex = 11;
             // 
             // Form1
             // 
@@ -312,7 +312,7 @@ namespace MastermindV2
             this.Controls.Add(this.guessControl2);
             this.Controls.Add(this.guessControl1);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.colourControl1);
+            this.Controls.Add(colourControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
@@ -340,7 +340,7 @@ namespace MastermindV2
         private GuessControl guessControl8;
         private GuessControl guessControl9;
         private GuessControl guessControl10;
-        private ColourControl colourControl1;
+        public static ColourControl colourControl1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;

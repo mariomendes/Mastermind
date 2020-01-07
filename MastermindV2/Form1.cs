@@ -189,8 +189,9 @@ namespace MastermindV2
 
         private void ResetColourControlSetColour()
         {
+            
             Button b = new Button();
-            this.colourControl1.button9.BackColor = b.BackColor;
+            colourControl1.button9.BackColor = b.BackColor;
         }
 
         private bool ValidateControl(GuessControl ctrl)
@@ -615,6 +616,7 @@ namespace MastermindV2
             this.Width = 561;
             this.CenterToScreen();
             gamemode = Gamemode.single;
+            colourControl1.button9.BackColor = new Button().BackColor;
             resetGame();
         }
 
@@ -623,6 +625,7 @@ namespace MastermindV2
             this.Width = 1012;
             this.CenterToScreen();
             gamemode = Gamemode.multi;
+            colourControl1.button9.BackColor = new Button().BackColor;
             resetGame();
         }
 

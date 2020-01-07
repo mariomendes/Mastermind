@@ -24,8 +24,8 @@ namespace MastermindV2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            if(color1.BackColor == SystemColors.Control | color2.BackColor == SystemColors.Control | color3.BackColor == SystemColors.Control | color4.BackColor == SystemColors.Control)
+
+            if (color1.BackColor == SystemColors.Control | color2.BackColor == SystemColors.Control | color3.BackColor == SystemColors.Control | color4.BackColor == SystemColors.Control)
             {
                 MessageBox.Show("Please fill each box with a colour before checking.");
                 return;
@@ -43,7 +43,7 @@ namespace MastermindV2
         {
             foreach (Button b in this.Controls)
             {
-                if(b.BackColor == ColourControl.SelectedColor)
+                if (b.BackColor == ColourControl.SelectedColor)
                 {
                     b.BackColor = SystemColors.Control;
                 }
@@ -56,7 +56,7 @@ namespace MastermindV2
 
         private void rrBox_KeyDown(object sender, KeyEventArgs e) //used as hack to see colours
         {
-            if(e.KeyData == Keys.Delete)
+            if (e.KeyData == Keys.Delete)
             {
                 Form1.ShowColours();
             }
@@ -69,14 +69,17 @@ namespace MastermindV2
 
         private void color1_MouseDown(object sender, MouseEventArgs e) //right click a colour to reset it to blank
         {
-            if(e.Button == MouseButtons.Right)
+            if (Form1.colourControl1.button9.BackColor == new Button().BackColor)
+            {
+                MessageBox.Show("Please select a colour", "No colour selected!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (e.Button == MouseButtons.Right)
             {
                 Button b = (Button)sender;
                 b.BackColor = SystemColors.Control;
             }
-            
         }
-
-
     }
 }
